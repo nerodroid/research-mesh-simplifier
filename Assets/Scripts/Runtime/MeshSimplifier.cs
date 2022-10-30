@@ -282,7 +282,6 @@ namespace UnityMeshSimplifier
             }
             set
             {
-                Debug.Log(123123123);
                 if (value == null)
                     throw new ArgumentNullException(nameof(value));
 
